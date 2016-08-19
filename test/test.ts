@@ -9,5 +9,5 @@ test('shape', t => {
   t.true(editor, 'created editor');
   t.true(editor.read, 'read method');
   t.true(editor.readJSON, 'readJSON method');
-  t.end()
+  t.end();
 });
