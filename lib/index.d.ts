@@ -3,7 +3,7 @@ import memfs = require('mem-fs');
 declare namespace memFSEditor {
   function create(store: memfs.Store): Editor;
   interface Editor {
-    read(filepath: string, options?: { raw: boolean, defaults: string }): File;
+    read(filepath: string, options?: { raw: boolean, defaults: string }): string | Buffer | NodeJS.ReadWriteStream;
     readJSON(filepath: string, defaults?: Object): Object;
     write(filepath: string, contents: string | Buffer): void;
     writeJSON(filepath: string, contents: Object, replacer?: any[] | ((key: string, value: any) => any), space?: string | number): void;
