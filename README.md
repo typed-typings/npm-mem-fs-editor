@@ -1,5 +1,7 @@
 # Typed Mem Fs Editor  [![Build Status](https://travis-ci.org/types/mem-fs-editor.svg?branch=master)](https://travis-ci.org/types/mem-fs-editor)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/types/npm-mem-fs-editor.svg)](https://greenkeeper.io/)
+
 
 The type definition for [`mem-fs-editor`](https://github.com/sboudrias/mem-fs-editor.git)
 
